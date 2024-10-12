@@ -1,0 +1,16 @@
+<h2>Liste des repas</h2>
+<div *ngFor="let meal of mealService.meals" class="meal">
+  <h3>{{ meal.name }}</h3>
+  <div class="tags">
+    <span class="tag" *ngFor="let tag of meal.tags">{{ tag }}</span>
+  </div>
+  <div class="ingredients">
+    <strong>Ingrédients :</strong>
+    <ul>
+      <li *ngFor="let ingredient of meal.ingredients">
+        {{ ingredient.quantity }} {{ ingredient.unit }} de {{ ingredient.name }}
+      </li>
+    </ul>
+  </div>
+  <button (click)="deleteMeal(meal.name)">Supprimer le repas</button>
+</div>

@@ -1,0 +1,797 @@
+[
+    {
+        "name": "Salade de quinoa / concombre / feta",
+        "tags": [
+            "salade",
+            "quinoa"
+        ],
+        "ingredients": [
+            {
+                "name": "quinoa",
+                "quantity": "75",
+                "unit": "g"
+            },
+            {
+                "name": "concombre",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "feta",
+                "quantity": "50",
+                "unit": "g"
+            },
+            {
+                "name": "huile d'olive",
+                "quantity": "1",
+                "unit": "càs"
+            }
+        ]
+    },
+    {
+        "name": "Agneau / flageolets",
+        "tags": [
+            "agneau",
+            "flageolets"
+        ],
+        "ingredients": [
+            {
+                "name": "agneau",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "flageolets",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "herbes de Provence",
+                "quantity": "0.5",
+                "unit": "càs"
+            }
+        ]
+    },
+    {
+        "name": "Galettes oeuf / tomate / chorizo",
+        "tags": [
+            "galette",
+            "oeuf",
+            "tomate",
+            "chorizo"
+        ],
+        "ingredients": [
+            {
+                "name": "galettes de sarrasin",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "oeufs",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "tomate",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "chorizo",
+                "quantity": "25",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Galette chèvre / miel / lardon",
+        "tags": [
+            "galette",
+            "chèvre",
+            "miel",
+            "lardon"
+        ],
+        "ingredients": [
+            {
+                "name": "galettes de sarrasin",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "chèvre",
+                "quantity": "37.5",
+                "unit": "g"
+            },
+            {
+                "name": "miel",
+                "quantity": "0.5",
+                "unit": "càs"
+            },
+            {
+                "name": "lardons",
+                "quantity": "25",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Ratatouille / oeufs",
+        "tags": [
+            "ratatouille",
+            "oeufs",
+            "légumes"
+        ],
+        "ingredients": [
+            {
+                "name": "courgette",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "aubergine",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "poivron",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "tomate",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "oeufs",
+                "quantity": "1",
+                "unit": "u"
+            }
+        ]
+    },
+    {
+        "name": "Patate douce / échalotes / st moret",
+        "tags": [
+            "patate douce",
+            "échalotes",
+            "st moret"
+        ],
+        "ingredients": [
+            {
+                "name": "patate douce",
+                "quantity": "125",
+                "unit": "g"
+            },
+            {
+                "name": "échalotes",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "st moret",
+                "quantity": "25",
+                "unit": "g"
+            },
+            {
+                "name": "huile d'olive",
+                "quantity": "1",
+                "unit": "càs"
+            }
+        ]
+    },
+    {
+        "name": "Saucisses / lentilles",
+        "tags": [
+            "saucisses",
+            "lentilles"
+        ],
+        "ingredients": [
+            {
+                "name": "saucisses",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "lentilles",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "carottes",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "oignon",
+                "quantity": "0.5",
+                "unit": "u"
+            }
+        ]
+    },
+    {
+        "name": "Jambon à cuire / mogettes",
+        "tags": [
+            "jambon",
+            "mogettes"
+        ],
+        "ingredients": [
+            {
+                "name": "jambon à cuire",
+                "quantity": "250",
+                "unit": "g"
+            },
+            {
+                "name": "mogettes",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "oignon",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "herbes",
+                "quantity": "0.5",
+                "unit": "càs"
+            }
+        ]
+    },
+    {
+        "name": "Potée aux choux",
+        "tags": [
+            "chou",
+            "potée",
+            "viande"
+        ],
+        "ingredients": [
+            {
+                "name": "chou",
+                "quantity": "125",
+                "unit": "g"
+            },
+            {
+                "name": "carottes",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "viande",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "lardons",
+                "quantity": "50",
+                "unit": "g"
+            },
+            {
+                "name": "bouillon",
+                "quantity": "250",
+                "unit": "ml"
+            }
+        ]
+    },
+    {
+        "name": "Boeuf bourguignon",
+        "tags": [
+            "boeuf",
+            "bourguignon"
+        ],
+        "ingredients": [
+            {
+                "name": "boeuf",
+                "quantity": "200",
+                "unit": "g"
+            },
+            {
+                "name": "vin rouge",
+                "quantity": "125",
+                "unit": "ml"
+            },
+            {
+                "name": "carottes",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "oignons",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "champignons",
+                "quantity": "50",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Fondue bourguignonne",
+        "tags": [
+            "viande",
+            "fondue"
+        ],
+        "ingredients": [
+            {
+                "name": "viande à fondue",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "huile",
+                "quantity": "250",
+                "unit": "ml"
+            },
+            {
+                "name": "sauces",
+                "quantity": "assortiment",
+                "unit": "au choix"
+            }
+        ]
+    },
+    {
+        "name": "Échalotes / purée",
+        "tags": [
+            "échalotes",
+            "purée"
+        ],
+        "ingredients": [
+            {
+                "name": "échalotes",
+                "quantity": "125",
+                "unit": "g"
+            },
+            {
+                "name": "pommes de terre",
+                "quantity": "250",
+                "unit": "g"
+            },
+            {
+                "name": "beurre",
+                "quantity": "25",
+                "unit": "g"
+            },
+            {
+                "name": "lait",
+                "quantity": "100",
+                "unit": "ml"
+            }
+        ]
+    },
+    {
+        "name": "Chili con carne",
+        "tags": [
+            "chili",
+            "viande"
+        ],
+        "ingredients": [
+            {
+                "name": "viande hachée",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "haricots rouges",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "poivron",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "oignon",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "épices chili",
+                "quantity": "1",
+                "unit": "càs"
+            }
+        ]
+    },
+    {
+        "name": "Tarte salée / légumes",
+        "tags": [
+            "tarte",
+            "légumes"
+        ],
+        "ingredients": [
+            {
+                "name": "pâte brisée",
+                "quantity": "125",
+                "unit": "g"
+            },
+            {
+                "name": "oeufs",
+                "quantity": "1",
+                "unit": "u"
+            },
+            {
+                "name": "crème",
+                "quantity": "100",
+                "unit": "ml"
+            },
+            {
+                "name": "légumes",
+                "quantity": "150",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Lasagnes",
+        "tags": [
+            "lasagnes",
+            "viande"
+        ],
+        "ingredients": [
+            {
+                "name": "pâtes à lasagne",
+                "quantity": "50",
+                "unit": "g"
+            },
+            {
+                "name": "viande hachée",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "sauce tomate",
+                "quantity": "100",
+                "unit": "ml"
+            },
+            {
+                "name": "fromage",
+                "quantity": "25",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Riz / légumes",
+        "tags": [
+            "riz",
+            "légumes"
+        ],
+        "ingredients": [
+            {
+                "name": "riz",
+                "quantity": "75",
+                "unit": "g"
+            },
+            {
+                "name": "légumes",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "sauce soja",
+                "quantity": "1",
+                "unit": "càs"
+            }
+        ]
+    },
+    {
+        "name": "Poisson / purée",
+        "tags": [
+            "poisson",
+            "purée"
+        ],
+        "ingredients": [
+            {
+                "name": "poisson",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "pommes de terre",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "beurre",
+                "quantity": "25",
+                "unit": "g"
+            },
+            {
+                "name": "lait",
+                "quantity": "100",
+                "unit": "ml"
+            }
+        ]
+    },
+    {
+        "name": "Tartiflette",
+        "tags": [
+            "tartiflette",
+            "pommes de terre"
+        ],
+        "ingredients": [
+            {
+                "name": "pommes de terre",
+                "quantity": "200",
+                "unit": "g"
+            },
+            {
+                "name": "reblochon",
+                "quantity": "50",
+                "unit": "g"
+            },
+            {
+                "name": "oignon",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "lardons",
+                "quantity": "50",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Gratin de courgettes",
+        "tags": [
+            "gratin",
+            "courgettes"
+        ],
+        "ingredients": [
+            {
+                "name": "courgettes",
+                "quantity": "200",
+                "unit": "g"
+            },
+            {
+                "name": "crème",
+                "quantity": "100",
+                "unit": "ml"
+            },
+            {
+                "name": "fromage",
+                "quantity": "25",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Raclette",
+        "tags": [
+            "raclette",
+            "fromage"
+        ],
+        "ingredients": [
+            {
+                "name": "fromage à raclette",
+                "quantity": "200",
+                "unit": "g"
+            },
+            {
+                "name": "pommes de terre",
+                "quantity": "200",
+                "unit": "g"
+            },
+            {
+                "name": "charcuterie",
+                "quantity": "100",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Boeuf aux carottes",
+        "tags": [
+            "boeuf",
+            "carottes"
+        ],
+        "ingredients": [
+            {
+                "name": "boeuf",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "carottes",
+                "quantity": "2",
+                "unit": "u"
+            },
+            {
+                "name": "oignon",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "bouillon",
+                "quantity": "250",
+                "unit": "ml"
+            }
+        ]
+    },
+    {
+        "name": "Poulet rôti",
+        "tags": [
+            "poulet"
+        ],
+        "ingredients": [
+            {
+                "name": "poulet entier",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "herbes",
+                "quantity": "1",
+                "unit": "càs"
+            },
+            {
+                "name": "pommes de terre",
+                "quantity": "200",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Poulet grillé / salade",
+        "tags": [
+            "poulet",
+            "salade"
+        ],
+        "ingredients": [
+            {
+                "name": "poulet",
+                "quantity": "150",
+                "unit": "g"
+            },
+            {
+                "name": "salade",
+                "quantity": "50",
+                "unit": "g"
+            },
+            {
+                "name": "tomate",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "fromage",
+                "quantity": "2",
+                "unit": "tranches"
+            }
+        ]
+    },
+    {
+        "name": "Poulet fumé / carottes",
+        "tags": [
+            "poulet",
+            "fumé",
+            "carottes"
+        ],
+        "ingredients": [
+            {
+                "name": "poulet fumé",
+                "quantity": "200",
+                "unit": "g"
+            },
+            {
+                "name": "carottes",
+                "quantity": "1.5",
+                "unit": "u"
+            },
+            {
+                "name": "crème",
+                "quantity": "50",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Poulet entier / maïs / carottes / patates",
+        "tags": [
+            "poulet",
+            "maïs",
+            "carottes",
+            "patates"
+        ],
+        "ingredients": [
+            {
+                "name": "poulet entier",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "maïs",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "carottes",
+                "quantity": "1.5",
+                "unit": "u"
+            },
+            {
+                "name": "pommes de terre",
+                "quantity": "250",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Poulet cocotte au cidre",
+        "tags": [
+            "poulet",
+            "cidre"
+        ],
+        "ingredients": [
+            {
+                "name": "poulet",
+                "quantity": "0.5",
+                "unit": "u"
+            },
+            {
+                "name": "cidre",
+                "quantity": "250",
+                "unit": "ml"
+            },
+            {
+                "name": "carottes",
+                "quantity": "1",
+                "unit": "u"
+            }
+        ]
+    },
+    {
+        "name": "Couscous",
+        "tags": [
+            "couscous"
+        ],
+        "ingredients": [
+            {
+                "name": "semoule",
+                "quantity": "75",
+                "unit": "g"
+            },
+            {
+                "name": "légumes",
+                "quantity": "100",
+                "unit": "g"
+            },
+            {
+                "name": "viande",
+                "quantity": "100",
+                "unit": "g"
+            }
+        ]
+    },
+    {
+        "name": "Riz au lait",
+        "tags": [
+            "dessert",
+            "riz"
+        ],
+        "ingredients": [
+            {
+                "name": "riz",
+                "quantity": "50",
+                "unit": "g"
+            },
+            {
+                "name": "lait",
+                "quantity": "200",
+                "unit": "ml"
+            },
+            {
+                "name": "sucre",
+                "quantity": "25",
+                "unit": "g"
+            },
+            {
+                "name": "vanille",
+                "quantity": "0.5",
+                "unit": "gousses"
+            }
+        ]
+    }
+]

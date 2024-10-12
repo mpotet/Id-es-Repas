@@ -1,0 +1,21 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .meal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px;
+  }
+  
+  .meal-card {
+    padding: 16px;
+  }
+  
+  button{
+    width: 100%;
+    margin-bottom: 16px;
+  }

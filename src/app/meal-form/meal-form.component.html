@@ -1,0 +1,10 @@
+<h2>Ajouter un repas</h2>
+<input type="text" [(ngModel)]="meal.name" placeholder="Nom du repas" />
+<input type="text" [(ngModel)]="meal.tags" placeholder="Tags (séparés par des virgules)" />
+<div *ngFor="let ingredient of meal.ingredients; let i = index">
+  <input type="text" [(ngModel)]="ingredient.name" placeholder="Nom de l'ingrédient" />
+  <input type="number" [(ngModel)]="ingredient.quantity" placeholder="Quantité" />
+  <input type="text" [(ngModel)]="ingredient.unit" placeholder="Unité (ex: kg, g, L)" />
+</div>
+<button (click)="addIngredient()">Ajouter un ingrédient</button>
+<button (click)="saveMeal()">Sauvegarder le repas</button>

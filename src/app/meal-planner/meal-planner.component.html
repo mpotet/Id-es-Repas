@@ -1,0 +1,51 @@
+<div class="container">
+  <h2>Planificateur de repas</h2>
+
+  <!-- Formulaire pour entrer le nombre de repas -->
+  <form (ngSubmit)="generateMeals()" class="form-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Nombre de repas</mat-label>
+      <input matInput type="number" [(ngModel)]="nbMeals" name="nb-meals" min="1" max="7" required />
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Générer les repas</button>
+  </form>
+
+  <!-- Affichage des repas générés -->
+  <div *ngIf="generatedMeals.length > 0">
+    <!-- Formulaire pour entrer les portions et générer la liste de courses -->
+    <form (ngSubmit)="generateShoppingList()" class="meal-form">
+      <div class="meal-grid">
+        <mat-card *ngFor="let meal of generatedMeals; let i = index" class="meal-card">
+          <mat-card-title>{{ meal.name }}</mat-card-title>
+
+          <!-- Champ pour entrer le nombre de portions -->
+          <mat-form-field appearance="fill">
+            <mat-label>Portions</mat-label>
+            <input matInput type="number" [(ngModel)]="portions[i]" name="portions-{{ i }}" min="1" />
+          </mat-form-field>
+
+          <!-- Liste des ingrédients du repas -->
+          <mat-list>
+            <mat-list-item *ngFor="let ingredient of meal.ingredients">
+              {{ ingredient.name }} : {{ ingredient.quantity }} {{ ingredient.unit }}
+            </mat-list-item>
+          </mat-list>
+        </mat-card>
+      </div>
+
+      <!-- Bouton pour générer la liste de courses -->
+      <button mat-raised-button color="accent" type="submit">Générer la liste de courses</button>
+    </form>
+  </div>
+
+  <!-- Affichage de la liste de courses générée -->
+  <div *ngIf="shoppingList.length > 0">
+    <h3 #shoppingListTitle>Liste de courses</h3>
+    <mat-list>
+      <mat-list-item *ngFor="let item of shoppingList">
+        {{ item.name }}
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
